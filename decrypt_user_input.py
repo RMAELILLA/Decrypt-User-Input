@@ -5,6 +5,8 @@ encrypt_input = ("Enter sentence you need to decrypt: ")
 # Evaluate encrypted text
 for i in range(len(encrypt_input)):
 #   if input text encrypted by * change a
+    if encrypt_input[i] == "*" :
+        encrypted += "a"
 #   if input text encrypted by & change e
 #   if input text encrypted by # change i
 #   if input text encrypted by + change o
