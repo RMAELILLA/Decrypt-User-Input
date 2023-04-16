@@ -23,7 +23,7 @@ for i in range(len(encrypt_input)):
     else:
         encrypted += encrypt_input[i]
 # display decrypted
-print('\033[1;35;47m ◊ ' * 120)
+print('\033[1;35;47m◊' * 120)
 encrypted
 print(encrypted.center(120, "◊"))
 print("◊" * 120)
