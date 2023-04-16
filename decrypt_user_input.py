@@ -23,4 +23,5 @@ for i in range(len(encrypt_input)):
     else:
         encrypted += encrypt_input[i]
 # display decrypted
+encrypted
 print(encrypted)
