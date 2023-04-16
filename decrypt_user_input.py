@@ -1,7 +1,7 @@
 # Assignment 2 Problem 2
 
 # Let user input encrypted text
-encrypt_input = ("Enter sentence you need to decrypt: ")
+encrypt_input = input("Enter sentence you need to decrypt: ")
 encrypted = ""
 # Evaluate encrypted text
 for i in range(len(encrypt_input)):
