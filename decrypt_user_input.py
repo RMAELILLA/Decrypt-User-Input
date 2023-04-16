@@ -17,4 +17,6 @@ for i in range(len(encrypt_input)):
     elif encrypt_input[i] == "+" :
         encrypted += "o"
 #   if input text encrypted by ! change u
+    elif encrypt_input[i] == "!" :
+        encrypted += "u"
 # display decrypted
